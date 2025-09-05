@@ -19,6 +19,7 @@ a{
 body{
     background: #FFCCF2;
     background: linear-gradient(90deg, rgba(255, 204, 242, 1) 0%, rgba(151, 125, 255, 1) 53%, rgba(0, 51, 255, 1) 100%);
+    background-repeat: no-repeat;
 }
 .navbar {
     display: flex;
@@ -33,6 +34,15 @@ li{
     display: flex;
     padding: 50px 30rem;
 }
+.menu-btn{
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+}
+.menu-btn:hover{
+    color: #FFCCF2;
+    transition: all 0.3s ease;
+}
 .logo{
     margin-left: 10rem;
 }
@@ -45,6 +55,11 @@ li{
     padding: 10px 20px;
     border-radius: 10px;
 }
+.btn:hover{
+     background-color: #3909f8;
+     transition: all 0.3s ease;
+     transform: scale(1.05);
+}
 .hm-text{
  font-size: 35px;
 }
@@ -55,7 +70,7 @@ li{
 }
 .hm-content {
     display: flex;
-    position: relative;
+    /* position: relative; */
     padding-left: 10rem;
     padding-top: 10rem;
     align-items: flex-start; 
@@ -94,9 +109,11 @@ li{
     border-radius: 2rem;
     border: 2px solid white;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
-
+     transition: all 0.5s ease;
 }
-
+.skills:hover{
+    transform: translateY(-10px);
+}
 .skills img {
     height: 300px;
     width: 300px;   
@@ -108,6 +125,7 @@ li{
 }
 .form{
   margin-top: 2rem;
+  margin-bottom: 1rem;
   font-family: Karla;
   font-size: 25px;
 }
@@ -135,6 +153,12 @@ li{
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 20px;
+}
+.btn-2:hover{
+    background-color: #5c33ff;
+    border: 1px solid #7857FF;
+    transition: all 0.5s ease;
+    transform: scale(1.05);
 }
 .form-img{
     height: 500px;
