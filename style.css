@@ -136,6 +136,7 @@ li{
     margin-top: 0.5rem; 
     margin-bottom: 1rem;
     border-radius: 8px; 
+    color: black;
     border: 1px solid #3F5EFB;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }
